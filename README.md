@@ -1,7 +1,6 @@
 # Developer Matchmaker
 
 ## Hero Image
----
 
 Find [here](http://www.flickr.com/photos/mikeschinkel/2733534094/)
 
@@ -10,7 +9,6 @@ OR
 Look inside the *images/* folder
 
 ## Hints
----
 
 You will need to Google:
 
@@ -19,7 +17,6 @@ You will need to Google:
 * overflow
 
 ## Fonts
----
 
 * Source Sans Pro
 * Merriweather
