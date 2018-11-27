@@ -1,0 +1,343 @@
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  background-color: #434ae6;
+  border-bottom: 6px solid black;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin:0px auto;
+}
+
+.img-container {
+  display: flex;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 100%;
+}
+
+.flex-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.blog {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  padding: 17px;
+}
+
+a {
+  text-decoration: none;
+}
+a {
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  color: hotpink;
+}
+
+.team {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  padding: 17px;
+}
+
+.define {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  padding: 17px;
+}
+
+.faculty {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.developers {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  background: url(../images/everybody.jpg);
+  background-size: cover;
+  height: 700px;
+  flex-direction: row-reverse;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  margin:50px;
+  width: 350px;
+  height: 450px;
+  background-color:rgb(255, 255, 255, 0.65);
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 27px;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  font-family:tahoma;
+  font-size: 25px;
+  padding: 12px;
+  word-spacing: 10px;
+  color: black;
+}
+
+.profile-box {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+  width:300px;
+  height:70px;
+  margin:25px;
+  border-radius: 15px;
+  box-shadow: 7px 7px rgb(171, 169, 169);
+}
+
+.profile-button {
+  display: flex;
+  flex-wrap: wrap;
+  font-family:tahoma;
+  font-size: 27px;
+  color: black;
+  font-weight: bold;
+  margin:15px;
+}
+
+.columns  {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.column-box1 {
+  display: flex;
+  width: 350px;
+  height: 250px;
+  background-color:white;
+}
+
+.column-box2 {
+  display: flex;
+  width: 380px;
+  height: 250px;
+  border-right: 2px solid rgb(206, 203, 203);
+  border-left: 2px solid rgb(206, 203, 203);
+  background-color: white;
+  margin:15px;
+}
+
+.middle {
+border-right: 2px solid rgb(206, 203, 203);
+border-left: 2px solid rgb(206, 203, 203);
+margin:15px;
+}
+
+.column-box3 {
+  display: flex;
+  width: 380px;
+  height: 250px;
+  background-color:white;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 27px;
+  padding: 12px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.profile2-box {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  width:300px;
+  height:70px;
+  margin:25px;
+  border-radius: 15px;
+  box-shadow: 7px 7px rgb(171, 169, 169);
+}
+
+.profile2 {
+  display: flex;
+  flex-wrap: wrap;
+  font-family:tahoma;
+  font-size: 25px;
+  padding: 12px;
+  word-spacing: 10px;
+  color: black;
+}
+
+.buttonstyle{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  width:300px;
+  height:70px;
+  border-radius: 15px;
+  box-shadow: 7px 7px rgb(171, 169, 169);
+  font-family:tahoma;
+  font-size: 25px;
+  padding: 12px;
+  word-spacing: 10px;
+  color: black;
+  margin:65px;
+}
+
+.profile2-button {
+  display: flex;
+  flex-wrap: wrap;
+  font-family:tahoma;
+  font-size: 27px;
+  color: black;
+  font-weight: bold;
+  margin:15px;
+}
+
+.developer {
+  display: flex;
+  flex-wrap: wrap;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 27px;
+  padding: 12px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.developer2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 12px;
+  justify-content: center;
+}
+
+.developer-box {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  width:300px;
+  height:70px;
+  margin:25px;
+  border-radius: 15px;
+  box-shadow: 7px 7px rgb(171, 169, 169);
+}
+
+.developer2-button {
+  display: flex;
+  flex-wrap: wrap;
+  font-family:tahoma;
+  font-size: 27px;
+  color: black;
+  font-weight: bold;
+  margin:15px;
+}
+
+.faculty {
+  display: flex;
+  flex-wrap: wrap;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 27px;
+  padding: 12px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.faculty2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 12px;
+  justify-content: center;
+}
+
+
+.col {
+  width: 8.3333%;
+}
+
+.col-2 {
+  width: calc(2 * 8.3333%);
+}
+
+.col-3 {
+  width: calc(3 * 8.3333%);
+}
+
+.col-4 {
+  width: calc(4 * 8.3333%);
+}
+
+.col-5 {
+  width: calc(5 * 8.3333%);
+}
+
+.col-6 {
+  width: calc(6 * 8.3333%);
+}
+
+.col-7 {
+  width: calc(7 * 8.3333%);
+}
+
+.col-8 {
+  width: calc(8 * 8.3333%);
+}
+
+.col-9 {
+  width: calc(9 * 8.3333%);
+}
+
+.col-10 {
+  width: calc(10 * 8.3333%);
+}
+
+.col-11 {
+  width: calc(11 * 8.3333%);
+}
+
+.col-12 {
+  width: calc(12 * 8.3333%);
+}
+
+
+.btm-header {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  background-color: black;
+  width: 100%;
+  height:80px;
+  justify-content: left;
+  align-items: left;
+  margin:0px auto;
+}
+
+.btm-header2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 12px;
+  justify-content: left;
+  color:white;
+}
